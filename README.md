@@ -11,4 +11,6 @@ This is a tutorial for the variatoinal autoencoder. We provide three examples. F
 - You should be running this notebook with a Python 3 kernel. 
 - You also need to make sure that whatever environment you're using has installed the dependencies in the imports section (numpy and torch). 
 - There is no GPU support for this code, since it should comfortably run on your personal CPU, but note that any serious attempt at modeling large models using high-dimensional data will need to contend with device management.
+*Tutorial credit*: [Albert Li](https://github.com/orgs/armlabstanford/people/alberthli)
+
 
