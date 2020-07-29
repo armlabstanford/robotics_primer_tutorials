@@ -1,5 +1,6 @@
 # Robotics Primer Tutorials
-This repo holds a few robotics related primer tutorials
+This repo holds a few robotics related primer tutorials. For code examples in jupyter notebooks, the code can be examined online (limited interactive) with nbviewer: 
+`https://nbviewer.jupyter.org/github/armlabstanford/robotics_primer_tutorials/blob/master/**repo**`
 
 ## Machine Learning Primer
 This is a primer if you are brand-new to machine learning, you can play with the scripts online here:
