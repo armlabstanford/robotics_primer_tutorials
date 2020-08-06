@@ -17,4 +17,21 @@ This is a tutorial for the variational autoencoder. There are four examples. Fir
 
 *Tutorial Author*: [Albert Li](https://github.com/orgs/armlabstanford/people/alberthli)
 
+## Convolutional Neural Network Tutorial
+
+This is a tutorial for *CNN, Siren(sinusoidal representation networks), and transfer learning*. There are three examples. 
+
+* In the first example, we learn how to train and evaluate simple convolutional neural network with Mnist dataset. 
+
+* Next, we learn the structure of Siren from the example. Siren is a network that leverages periodic activation functions for implicit neural representations. 
+
+* Finally, we learn a simple example of transfer learning. We will classify small dataset with pretrained ResNet18 via transfer learning. 
+
+To learn these example, you need to implement those code on [Google Colab](https://colab.research.google.com/github/tensorflow/examples/blob/master/courses/udacity_intro_to_tensorflow_for_deep_learning/l01c01_introduction_to_colab_and_python.ipynb). First, download examples in google drive. Next, if you right click the notebooks, you will see the tab 'open with'. Click Google Colaboratory to execute the notebook. Next, to ensure fast learning, make sure that you have enabled the GPU under Edit -> Notebook Settings.
+
+Please let me know if you have further questions!
+
+
+Tutorial Author: [Won Kyung Do](https://github.com/orgs/armlabstanford/people/?query=wonkyung+do)
+
 
