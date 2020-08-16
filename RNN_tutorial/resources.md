@@ -10,6 +10,8 @@ Useful resources that we've found while preparing for this talk:
 
 - [[Link]](https://people.csail.mit.edu/mrub/talks/filtering.pdf) MIT slides on filtering
 
+# Neural Networks:
+
 ## RNN:
 
 - [[Link]](https://www.youtube.com/watch?v=LHXXI4-IEns&feature=youtu.be) Explanatory video on how RNN works
