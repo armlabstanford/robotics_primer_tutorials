@@ -33,6 +33,15 @@ Please let me know if you have further questions!
 
 Tutorial Author: [Won Kyung Do](https://github.com/orgs/armlabstanford/people/?query=wonkyung+do)
 
+## Reinforcement Learning Tutorial 
+This is a tutorial for Reinforcement Learning. There are two examples, which are run using Google Colab. Please refer to the Convolutional Neural Network section for details on downloading Google Colab and running code within the program.
+
+* The first example is a tutorial on Q-learning and can be implemented in two different games. In both games, we train an agent to navigate through a discrete state space.
+
+* The second example is a tutorial on DQN and is also implemented in two different games. In the first game, we train an agent to navigate through a discrete state space. In the second game, we train an agent to balance a cart pole in an upright position. Before running this example, **make sure that you have enabled GPU under Edit --> Notebook Settings.**
+
+Tutorial Author: [Aliyah Smith](https://github.com/orgs/armlabstanford/people/aliyah-smith)
+
 ## Imitation Reinforcement Learning
 This repo allows you to train an agent via imitation learning or reinforcement learning. The three more important files are flappybird1.py, flappybird2.py, and  DAgger.py. The tutorial was based on the following online tutorial: https://automaticaddison.com/play-flappy-bird-using-imitation-learning/ 
 
