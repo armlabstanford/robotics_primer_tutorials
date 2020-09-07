@@ -31,7 +31,38 @@ To learn these example, you need to implement those code on [Google Colab](https
 
 Please let me know if you have further questions!
 
-
 Tutorial Author: [Won Kyung Do](https://github.com/orgs/armlabstanford/people/?query=wonkyung+do)
+
+## Imitation Reinforcement Learning
+This repo allows you to train an agent via imitation learning or reinforcement learning. The three more important files are flappybird1.py, flappybird2.py, and  DAgger.py. The tutorial was based on the following online tutorial: https://automaticaddison.com/play-flappy-bird-using-imitation-learning/ 
+
+- Create a python3 virtual environment following this [tutorial](https://docs.python.org/3/tutorial/venv.html)
+- Activate your environment each time you use this repo with the following command:
+ ```
+source (env_name)/bin/activate
+ ```
+- Follow the dependencies installations in https://automaticaddison.com/play-flappy-bird-using-imitation-learning/
+- Run the following command: 
+ ```
+pip3 install -r requirements.txt 
+ ```
+- In the first file, we are simply running the flappybird interface. Run it using:
+ ```
+python3 flappybird1.py
+ ```
+- Second, the next file is quite similar to the first one, but the agent takes random actions. Run it:
+ ```
+python3 flappybird2.py 
+ ```
+- The third and last file named Dagger.py uses the imitation learning data aggregation algorithm refer to ARM RL presentation and this [link](https://automaticaddison.com/play-flappy-bird-using-imitation-learning/) to learn more about the algorithm. Dagger is used to train the agent on playing the game with expert demonstration.  The algorithm helps the agent memorize the expert actions in different states. Run the file and fix any dependency related errors:
+ ```
+python3 DAgger.py 
+ ```
+
+Note: Make sure you have enough RAM in your ubuntu machine as tensorflow requires a significant amount of RAM to run. I use 4 GB to run my VM. 
+
+*Tutorial Author*: [Manuel Retana](https://github.com/MRNAS)
+
+
 
 
