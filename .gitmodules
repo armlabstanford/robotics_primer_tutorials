@@ -4,3 +4,6 @@
 [submodule "ImitationLearning"]
 	path = ImitationLearning
 	url = git@github.com:MRNAS/ImitationLearning.git
+[submodule "reinforcement_learning_tutorial"]
+	path = reinforcement_learning_tutorial
+	url = git@github.com:aliyah-smith/reinforcement_learning_tutorial.git
