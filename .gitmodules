@@ -1,3 +1,6 @@
 [submodule "ImitationLearning_tutorial"]
 	path = ImitationLearning_tutorial
 	url = /ImitationLearning_tutorial/
+[submodule "ImitationLearning"]
+	path = ImitationLearning
+	url = git@github.com:MRNAS/ImitationLearning.git
