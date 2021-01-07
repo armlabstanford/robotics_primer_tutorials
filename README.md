@@ -33,6 +33,13 @@ Please let me know if you have further questions!
 
 Tutorial Author: [Won Kyung Do](https://github.com/orgs/armlabstanford/people/?query=wonkyung+do)
 
+## Temporal Networks Tutorial
+This is a tutorial for temporal networks (i.e. generative models for sequence prediction). There are 2 examples that can be run with Jupyter Notebook. Overall, both examples use an encoder-decoder structure to predict points in a sinusoidal waves, given some previous/training data points in that sine wave.
+- In the first example (LSTM Autoencoder), a LSTM-based encoder encodes the input points into hidden states; a LSTM-based decoder and an output layer generates the predictions.
+- In the second example (LSTM-CVAE), a LSTM-based encoder encodes the input points into a latent space distribution; conditioned by certain variables, a LSTM-based decoder and an output layer generates the predictions.
+
+*Tutorial Authors*: [Eley Ng](https://github.com/eley-ng) and [Junwu Zhang](https://github.com/junwuzhang)
+
 ## Reinforcement Learning Tutorial 
 This is a tutorial for Reinforcement Learning. There are two examples, which are run using Google Colab. Please refer to the Convolutional Neural Network section for details on downloading Google Colab and running code within the program.
 
